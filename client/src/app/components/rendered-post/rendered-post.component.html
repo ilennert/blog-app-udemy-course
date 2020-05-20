@@ -1,0 +1,7 @@
+<div class="card" style="width: 100%; margin-bottom: 20px;">
+    <div class="card-body">
+        <h3>{{ post.title }}</h3>
+        <comment-list [comment-list]="post.comments"></comment-list>
+        <comment-create [postId]="post.id"></comment-create>
+    </div>
+</div>
